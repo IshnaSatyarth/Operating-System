@@ -1,0 +1,468 @@
+Number of threads : 4   |   Number of objects : 10
+
+
+Dealer pushing 22 to queue.
+
+( 22 )
+
+Dealer pushing 36 to queue.
+
+( 22 36 )
+
+Dealer pushing 2 to queue.
+
+( 22 36 2 )
+
+Dealer pushing 15 to queue.
+
+( 22 36 2 15 )
+
+Dealer pushing 23 to queue.
+
+( 22 36 2 15 23 )
+Thread 0 started
+
+Thread 0 pop 22 from queue. Not matched. Need to push x - 2 back on queue.
+
+Thread 1 started
+( 36 2 15 23 )
+
+Dealer pushing 36 to queue.
+
+( 36 2 15 23 36 )
+Thread 2 started
+
+Thread 1 pop 36 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 2 15 23 36 )
+
+Dealer pushing 19 to queue.
+
+( 2 15 23 36 19 )
+
+Thread 2 pop 2 from queue (2). Final bonus for object : no need to push back.
+
+Thread 3 started
+( 15 23 36 19 )
+
+Thread 3 pop 15 from queue (6). Matched. Need to push 2/5*x back on queue.
+
+( 23 36 19 )
+
+Dealer pushing 12 to queue.
+
+( 23 36 19 12 )
+
+Dealer pushing 29 to queue.
+
+( 23 36 19 12 29 )
+
+Thread 0 pushing 20 to queue
+
+( 23 36 19 12 29 20 )
+
+Thread 0 pop 23 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 36 19 12 29 20 )
+
+Thread 1 pushing 34 to queue
+
+( 36 19 12 29 20 34 )
+
+Thread 1 pop 36 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 19 12 29 20 34 )
+
+Thread 2 pop 19 from queue (7). Matched. Need to push 2/5*x back on queue.
+
+( 12 29 20 34 )
+
+Dealer pushing 6 to queue.
+
+( 12 29 20 34 6 )
+
+Thread 3 pushing 9 to queue
+
+( 12 29 20 34 6 9 )
+
+Thread 3 pop 12 from queue (4). Matched. Need to push 2/5*x back on queue.
+
+( 29 20 34 6 9 )
+
+Thread 1 pushing 34 to queue
+
+( 29 20 34 6 9 34 )
+
+Thread 1 pop 29 from queue (11). Matched. Need to push 2/5*x back on queue.
+
+( 20 34 6 9 34 )
+
+Thread 2 pushing 12 to queue
+
+( 20 34 6 9 34 12 )
+
+Thread 2 pop 20 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 34 6 9 34 12 )
+
+Thread 0 pushing 21 to queue
+
+( 34 6 9 34 12 21 )
+
+Thread 0 pop 34 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 6 9 34 12 21 )
+
+Thread 3 pushing 8 to queue
+
+( 6 9 34 12 21 8 )
+
+Thread 3 pop 6 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 9 34 12 21 8 )
+
+Thread 1 pushing 18 to queue
+
+( 9 34 12 21 8 18 )
+
+Thread 1 pop 9 from queue (3). Matched. Need to push 2/5*x back on queue.
+
+( 34 12 21 8 18 )
+
+Thread 0 pushing 32 to queue
+
+( 34 12 21 8 18 32 )
+
+Thread 0 pop 34 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 12 21 8 18 32 )
+
+Thread 2 pushing 18 to queue
+
+( 12 21 8 18 32 18 )
+
+Thread 2 pop 12 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 21 8 18 32 18 )
+
+Thread 3 pushing 4 to queue
+
+( 21 8 18 32 18 4 )
+
+Thread 3 pop 21 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 8 18 32 18 4 )
+
+Thread 1 pushing 6 to queue
+
+( 8 18 32 18 4 6 )
+
+Thread 3 pushing 19 to queue
+
+( 8 18 32 18 4 6 19 )
+
+Thread 3 pop 8 from queue (3). Matched. Need to push 2/5*x back on queue.
+
+( 18 32 18 4 6 19 )
+
+Thread 1 pop 18 from queue (7). Matched. Need to push 2/5*x back on queue.
+
+( 32 18 4 6 19 )
+
+Thread 0 pushing 32 to queue
+
+( 32 18 4 6 19 32 )
+
+Thread 0 pop 32 from queue (12). Matched. Need to push 2/5*x back on queue.
+
+( 18 4 6 19 32 )
+
+Thread 2 pushing 10 to queue
+
+( 18 4 6 19 32 10 )
+
+Thread 2 pop 18 from queue (7). Matched. Need to push 2/5*x back on queue.
+
+( 4 6 19 32 10 )
+
+Thread 3 pushing 5 to queue
+
+( 4 6 19 32 10 5 )
+
+Thread 3 pop 4 from queue (4). Final bonus for object : no need to push back.
+
+( 6 19 32 10 5 )
+
+Thread 1 pushing 11 to queue
+
+( 6 19 32 10 5 11 )
+
+Thread 1 pop 6 from queue (2). Matched. Need to push 2/5*x back on queue.
+
+( 19 32 10 5 11 )
+
+Thread 0 pushing 20 to queue
+
+( 19 32 10 5 11 20 )
+
+Thread 0 pop 19 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 32 10 5 11 20 )
+
+Thread 2 pushing 11 to queue
+
+( 32 10 5 11 20 11 )
+
+Thread 2 pop 32 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 10 5 11 20 11 )
+
+Thread 3 pop 10 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 5 11 20 11 )
+
+Thread 1 pushing 4 to queue
+
+( 5 11 20 11 4 )
+
+Thread 1 pop 5 from queue (2). Matched. Need to push 2/5*x back on queue.
+
+( 11 20 11 4 )
+
+Thread 0 pushing 17 to queue
+
+( 11 20 11 4 17 )
+
+Thread 0 pop 11 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 20 11 4 17 )
+
+Thread 2 pushing 30 to queue
+
+( 20 11 4 17 30 )
+
+Thread 2 pop 20 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 11 4 17 30 )
+
+Thread 2 pushing 18 to queue
+
+( 11 4 17 30 18 )
+
+Thread 2 pop 11 from queue (4). Matched. Need to push 2/5*x back on queue.
+
+( 4 17 30 18 )
+
+Thread 0 pushing 9 to queue
+
+( 4 17 30 18 9 )
+
+Thread 0 pop 4 from queue (4). Final bonus for object : no need to push back.
+
+( 17 30 18 9 )
+
+Thread 3 pushing 8 to queue
+
+( 17 30 18 9 8 )
+
+Thread 3 pop 17 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 30 18 9 8 )
+
+Thread 1 pushing 3 to queue
+
+( 30 18 9 8 3 )
+
+Thread 1 pop 30 from queue (12). Matched. Need to push 2/5*x back on queue.
+
+( 18 9 8 3 )
+
+Thread 2 pushing 7 to queue
+
+( 18 9 8 3 7 )
+
+Thread 2 pop 18 from queue (7). Matched. Need to push 2/5*x back on queue.
+
+( 9 8 3 7 )
+
+Thread 0 pop 9 from queue (3). Matched. Need to push 2/5*x back on queue.
+
+( 8 3 7 )
+
+Thread 3 pushing 15 to queue
+
+( 8 3 7 15 )
+
+Thread 3 pop 8 from queue (3). Matched. Need to push 2/5*x back on queue.
+
+( 3 7 15 )
+
+Thread 1 pushing 18 to queue
+
+( 3 7 15 18 )
+
+Thread 1 pop 3 from queue (3). Final bonus for object : no need to push back.
+
+( 7 15 18 )
+
+Thread 0 pushing 6 to queue
+
+( 7 15 18 6 )
+
+Thread 0 pop 7 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 15 18 6 )
+
+Thread 2 pushing 11 to queue
+
+( 15 18 6 11 )
+
+Thread 2 pop 15 from queue (6). Matched. Need to push 2/5*x back on queue.
+
+( 18 6 11 )
+
+Thread 1 pop 18 from queue (7). Matched. Need to push 2/5*x back on queue.
+
+( 6 11 )
+
+Thread 3 pushing 5 to queue
+
+( 6 11 5 )
+
+Thread 3 pop 6 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 11 5 )
+
+Thread 0 pushing 5 to queue
+
+( 11 5 5 )
+
+Thread 0 pop 11 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 5 5 )
+
+Thread 2 pushing 9 to queue
+
+( 5 5 9 )
+
+Thread 2 pop 5 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 5 9 )
+
+Thread 1 pushing 11 to queue
+
+( 5 9 11 )
+
+Thread 1 pop 5 from queue (2). Matched. Need to push 2/5*x back on queue.
+
+( 9 11 )
+
+Thread 3 pushing 4 to queue
+
+( 9 11 4 )
+
+Thread 3 pop 9 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 11 4 )
+
+Thread 2 pushing 3 to queue
+
+( 11 4 3 )
+
+Thread 3 pushing 7 to queue
+
+( 11 4 3 7 )
+
+Thread 3 pop 11 from queue (4). Matched. Need to push 2/5*x back on queue.
+
+( 4 3 7 )
+
+Thread 0 pushing 9 to queue
+
+( 4 3 7 9 )
+
+Thread 0 pop 4 from queue (4). Final bonus for object : no need to push back.
+
+( 3 7 9 )
+
+Thread 2 pop 3 from queue (3). Final bonus for object : no need to push back.
+
+( 7 9 )
+
+Thread 1 pushing 3 to queue
+
+( 7 9 3 )
+
+Thread 1 pop 7 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 9 3 )
+
+Thread 0 pop 9 from queue (3). Matched. Need to push 2/5*x back on queue.
+
+( 3 )
+
+Thread 3 pushing 7 to queue
+
+( 3 7 )
+
+Thread 3 pop 3 from queue (3). Final bonus for object : no need to push back.
+
+( 7 )
+
+Thread 1 pushing 5 to queue
+
+( 7 5 )
+
+Thread 1 pop 7 from queue. Not matched. Need to push x - 2 back on queue.
+
+( 5 )
+
+Thread 2 pop 5 from queue. Not matched. Need to push x - 2 back on queue.
+
+( )
+
+Thread 0 pushing 6 to queue
+
+( 6 )
+
+Thread 0 pop 6 from queue. Not matched. Need to push x - 2 back on queue.
+
+( )
+
+Thread 1 pushing 5 to queue
+
+( 5 )
+
+Thread 1 pop 5 from queue (2). Matched. Need to push 2/5*x back on queue.
+
+( )
+
+Thread 2 pushing 3 to queue
+
+( 3 )
+
+Thread 2 pop 3 from queue (3). Final bonus for object : no need to push back.
+
+( )
+
+Thread 1 pushing 3 to queue
+
+( 3 )
+
+Thread 1 pop 3 from queue (3). Final bonus for object : no need to push back.
+
+( )
+
+Thread 0 pushing 4 to queue
+
+( 4 )
+
+Thread 0 pop 4 from queue (4). Final bonus for object : no need to push back.
+
+( )
+Player 0 finished with 30 points.
+Player 1 finished with 54 points.
+Player 2 finished with 39 points.
+Player 3 finished with 27 points.
+--------------------
+Winner: Player 1 with 54 points.
