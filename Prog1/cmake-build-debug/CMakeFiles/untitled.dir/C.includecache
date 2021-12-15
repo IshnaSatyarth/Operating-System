@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ishnasatyarth/MLSMU/Fall 2021/OS/Ishna/Programs/Project 1/main.c
+pthread.h
+-
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+unistd.h
+-
+math.h
+-
+
